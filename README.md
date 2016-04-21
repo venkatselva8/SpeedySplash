@@ -4,7 +4,7 @@ An Android Studio example project on how to implement a Speed- Splash Screen in 
 
 ###SpeedySplash- Brand Theme
 
-  SpeedySplash screen has single [Brand Image](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/drawable/splash_brand_img.png).  
+  This Splash screen has single [Brand Image](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/drawable/splash_brand_img.png).  
   To achieve this, use the [SpeedyBrandTheme](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/values/styles.xml) in AndroidManifest.xml
  
   ![SpeedySplashBrand GIF](https://github.com/venkatselva8/SpeedySplash/blob/master/GitFiles/SpeedyBrand.gif)
@@ -12,7 +12,7 @@ An Android Studio example project on how to implement a Speed- Splash Screen in 
  
 ###SpeedySplash- AppLogo Theme
 
-  SpeedySplash screen contains only AppLogo at the center of the screen.  
+  This Splash screen contains only AppLogo at the center of the screen.  
   To achieve this, use the [SpeedyTheme](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/values/styles.xml) in AndroidManifest.xml
  
   ![SpeedySplashBrand GIF](https://github.com/venkatselva8/SpeedySplash/blob/master/GitFiles/Speedy.gif)
