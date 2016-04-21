@@ -1,5 +1,5 @@
 # SpeedySplash ![SpeedySplash AppLogo](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) 
-An Android Studio example project on how to implement a Speedy- Splash Screen in Android
+An Android Studio example project on how to implement a Speed- Splash Screen in Android
 
 
 ###SpeedySplash- Brand Theme
