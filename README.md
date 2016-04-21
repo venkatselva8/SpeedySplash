@@ -1,7 +1,22 @@
-# SpeedySplash ![alt text](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) 
+# SpeedySplash ![SpeedySplash AppLogo](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) 
 An Android Studio example project on how to implement a Speedy- Splash Screen in Android
 
-![alt text](https://github.com/venkatselva8/SpeedySplash/blob/master/GitFiles/SpeedyBrand.gif)
+
+###SpeedySplash- Brand Theme
+
+  SpeedySplash screen has single [Brand Image](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/drawable/splash_brand_img.png).  
+  To achieve this, use the [SpeedyBrandTheme](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/values/styles.xml) in AndroidManifest.xml
+ 
+  ![SpeedySplashBrand GIF](https://github.com/venkatselva8/SpeedySplash/blob/master/GitFiles/SpeedyBrand.gif)
+-----
+ 
+###SpeedySplash- AppLogo Theme
+
+  SpeedySplash screen contains only AppLogo at the center of the screen.  
+  To achieve this, use the [SpeedyTheme](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/values/styles.xml) in AndroidManifest.xml
+ 
+  ![SpeedySplashBrand GIF](https://github.com/venkatselva8/SpeedySplash/blob/master/GitFiles/Speedy.gif)
+
 
 
 ## What is Splash Screen (or) Launch Screen ?
@@ -15,8 +30,8 @@ An Android Studio example project on how to implement a Speedy- Splash Screen in
 
  Main Purpose of SplashScreen which I know:
 
- 1. Use SplashScreen to Show case app logo.
- 2. Use SplashScreen to Show case app logo & Company Brand Name.
+ 1. To Show app logo. (SpeedySplash- AppLogo Theme)
+ 2. To Show case app logo & Company Brand Name. (SpeedySplash- Brand Theme)
  3. Show SplashScreen when making network calls (Http)
  4. Downloading Data and storing it in SQLite
  5. Fetching and Parsing Json/ XML
@@ -86,7 +101,7 @@ An Android Studio example project on how to implement a Speedy- Splash Screen in
   </activity>
 ```
  4.Atlast, Add the SplashActivity.java file in your project.
-   ⋅⋅⋅(SplashActivity class which runs a timer to Intent to the MainActivity)
+   (SplashActivity class which runs a timer to Intent to the MainActivity)
 
 ```java
     public class SplashActivity extends AppCompatActivity {
@@ -113,8 +128,15 @@ An Android Studio example project on how to implement a Speedy- Splash Screen in
     }
 ```    
 
+##Credits
 
+Thanks to the following for use of their works in my project.
 
+1. App Icon              - [GitHub Octicons](https://octicons.github.com/)
+2. App Icon creator tool - [Iconion](http://iconion.com/)
+3. App Icon Resizer      - [MakeAppIcon](http://makeappicon.com/)
+
+##End
 Suggestions are welcome. Sent to venkatselva8@gmail.com
 
 Happy Coding :)
