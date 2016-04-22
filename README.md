@@ -1,5 +1,11 @@
 # SpeedySplash ![SpeedySplash AppLogo](https://github.com/venkatselva8/SpeedySplash/blob/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) 
-An Android Studio example project on how to implement a Speed- Splash Screen in Android
+An Android Studio example project on how to implement a Speed- Splash Screen in Android.
+
+  The Speedy Splash Screen, is a little different than you might imagine. 
+  The splash view that you see has to be ready immediately, even before you can inflate a layout file in your splash activity.
+  **So you will not use a layout file. Instead, specify your splash screen’s background as the activity’s theme background.**
+
+Simply, Don't inflate a Layout file in SplashActivity because it takes time to load and white screen will come.
 
 
 ###SpeedySplash- Brand Theme
