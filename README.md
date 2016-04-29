@@ -142,7 +142,7 @@ Thanks to the following for use of their works in my project.
 2. App Icon creator tool - [Iconion](http://iconion.com/)
 3. App Icon Resizer      - [MakeAppIcon](http://makeappicon.com/)
 
-###Reference
+####References
 
 1. [Use cold start time effectively with a branded launch theme](https://plus.google.com/+AndroidDevelopers/posts/Z1Wwainpjhd)
 2. [Patterns – Launch screens](http://www.google.com/design/spec/patterns/launch-screens.html)
