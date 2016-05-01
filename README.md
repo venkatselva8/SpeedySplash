@@ -133,6 +133,7 @@ Simply, Don't inflate a Layout file in SplashActivity because it takes time to l
         }, SPLASH_TIME_OUT);
     }
 ```    
+  Happy Coding :)
 
 ##Credits
 
